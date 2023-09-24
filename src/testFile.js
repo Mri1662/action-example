@@ -16,9 +16,9 @@ const sum = (a, b) => {
 // };
 
 // '==' should be '==='
-// if (sum(1, 2) === 3) {
-//   console.log('This is not type-safe.')
-// }
+if (sum(1, 2) === 3) {
+  // console.log('This is not type-safe.')
+}
 
 // Trailing whitespace at the end of the line
 // const divide = (a, b) => {
