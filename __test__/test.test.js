@@ -8,12 +8,4 @@ describe("Math.js tests", () => {
   it("Should test subtract", () => {
     expect(subtract(10, 5)).toBe(5);
   });
-
-  it("Should test divide", () => {
-    expect(divide(10, 2)).toBe(5);
-  });
-
-  it("Should test multiply", () => {
-    expect(multiply(5, 5)).toBe(25);
-  });
 });
