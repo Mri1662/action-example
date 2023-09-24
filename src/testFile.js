@@ -1,10 +1,10 @@
 module.exports = {
   add: (a, b) => a + b,
-  subtract: (a, b) => a - b,
+  subtract: (a, b) => a - b
 }
 
 const sum = (a, b) => {
-  return a+b
+  return a + b
 }
 
 // Missing semicolon and extra spacing
@@ -16,12 +16,12 @@ const sum = (a, b) => {
 // };
 
 // '==' should be '==='
-if (sum(1, 2) === 3) {
-  console.log('This is not type-safe.')
-}
+// if (sum(1, 2) === 3) {
+//   console.log('This is not type-safe.')
+// }
 
 // Trailing whitespace at the end of the line
-// const divide = (a, b) => {  
+// const divide = (a, b) => {
 //   if (b === 0) {
 //     return 'Cannot divide by zero.'
 //   }
