@@ -33,3 +33,4 @@ var outdatedVar = "I'm an outdated variable declaration";
 
 // Global variable without declaration
 undeclaredVar = 'I am undeclared';
+
