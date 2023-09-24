@@ -10,12 +10,12 @@ module.exports = {
    }
    
    // Missing semicolon and extra spacing
-   // const multiply = (a, b) => { return a * b }
+   const multiply = (a, b) => { return a * b }
    
    // Unused variable 'c'
-   // const unusedVar = (a, b, c) => {
-   //   return a + b;
-   // };
+    const unusedVar = (a, b, c) => {
+      return a + b;
+    };
    
    // '==' should be '==='
    if (sum(1, 2) === 3) {
