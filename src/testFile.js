@@ -11,9 +11,9 @@ const sum = (a, b) => {
 // const multiply = (a, b) => { return a * b }
 
 // Unused variable 'c'
-// const unusedVar = (a, b, c) => {
-//   return a + b;
-// };
+const unusedVar = (a, b) => {
+ return a + b;
+};
 
 // '==' should be '==='
 if (sum(1, 2) === 3) {
@@ -29,7 +29,7 @@ if (sum(1, 2) === 3) {
 // };
 
 // 'var' instead of 'let' or 'const'
-// let outdatedVar = "I'm an outdated variable declaration";
+var outdatedVar = "I'm an outdated variable declaration";
 
 // Global variable without declaration
 // undeclaredVar = 'I am undeclared';
