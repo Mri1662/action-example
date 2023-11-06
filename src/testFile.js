@@ -8,12 +8,16 @@ const sum = (a, b) => {
 }
 
 // Missing semicolon and extra spacing
-// const multiply = (a, b) => { return a * b }
+const multiply = (a, b) => { return a * b }
+
+if (multiply(1, 2) === 2) {
+  // console.log('This is not type-safe.')
+}
 
 // Unused variable 'c'
-const unusedVar = (a, b) => {
- return a + b;
-};
+// const unusedVar = (a, b) => {
+//   return a + b
+// }
 
 // '==' should be '==='
 if (sum(1, 2) === 3) {
@@ -21,15 +25,19 @@ if (sum(1, 2) === 3) {
 }
 
 // Trailing whitespace at the end of the line
-// const divide = (a, b) => {
-//   if (b === 0) {
-//     return 'Cannot divide by zero.'
-//   }
-//   return a / b;
-// };
+const divide = (a, b) => {
+  if (b === 0) {
+    return 'Cannot divide by zero.'
+  }
+  return a / b
+}
+
+if (divide(2, 2) === 1) {
+  // console.log('This is not type-safe.')
+}
 
 // 'var' instead of 'let' or 'const'
-var outdatedVar = "I'm an outdated variable declaration";
+// const outdatedVar = "I'm an outdated variable declaration"
 
 // Global variable without declaration
-// undeclaredVar = 'I am undeclared';
+// const undeclaredVar = 'I am undeclared'
