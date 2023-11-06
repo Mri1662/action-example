@@ -37,7 +37,7 @@ if (divide(2, 2) === 1) {
 }
 
 // 'var' instead of 'let' or 'const'
-// const outdatedVar = "I'm an outdated variable declaration"
+const outdatedVar = "I'm an outdated variable declaration"
 
 // Global variable without declaration
-// const undeclaredVar = 'I am undeclared'
+const undeclaredVar = 'I am undeclared'
